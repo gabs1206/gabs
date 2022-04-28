@@ -1,0 +1,32 @@
+/**
+ * Variables
+ */
+
+ $cyan: #53C5CF;
+ $blue: #1B1C1E;
+ $primary: $cyan;
+ $dark: $blue;
+ $light: #f5f5f5;
+ 
+ $theme-colors: (
+   primary: $primary,
+   dark: $blue,
+   light: $light
+ );
+ 
+ $body-family: 'Montserrat', sans-serif;
+ $body-size: 14px;
+ 
+
+
+[data-aos] {
+  transition-timing-function: ease-out !important;
+  
+  &:not([data-aos-duration]) {
+      transition-duration: 1s !important;
+  }
+}
+
+h1.is-primary, h2.is-primary, h3.is-primary, h4.is-primary, h5.is-primary, h6.is-primary, p.is-primary{
+    color: $primary !important;
+}

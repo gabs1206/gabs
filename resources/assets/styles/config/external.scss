@@ -1,0 +1,28 @@
+/**
+ * External
+ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import '~bulma';
+@import '~bulma-helpers';
+
+/*Si necesitas los estilos por defecto de slick carousel descomenta las 2 siguientes lineas
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+*/
+
+/**
+ * Making some helpers
+ */
+
+
+* {
+    font-family: $body-family;
+}
+
+strong {
+    color: $dark !important;
+}
+
+*:focus {
+    outline: unset !important;
+}
